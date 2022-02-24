@@ -727,7 +727,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			end)
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
 		end
-		function ContainerContent:Toggle(text, desc,default, callback)
+		function ContainerContent:Toggle(text, desc, default, callback)
 			local ToggleDescToggled = false
 			local Toggled = false
 			if desc == "" then
